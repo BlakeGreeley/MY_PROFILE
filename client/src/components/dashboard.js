@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import axios from 'axios';
 import '../App.css';
-import { Hire } from 'react-router-dom';
+import { Hire, Link } from 'react-router-dom';
 
-const dashboard = () => {
+const Dashboard = () => {
     // const [allHire, setAllHires] = useState([]);
     // useEffect(() => {
     //     axios
@@ -23,6 +23,19 @@ const dashboard = () => {
             drop down function. */}
             <div className="header">
                 <h1>Blake Greeley</h1>
+                <div className="right-nav">
+                    <Link to='/contact' className="btn">Contact Me</Link>
+                    <div class="dropdown">
+                        <button class="dropbtn">Dropdown
+                            <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div className="Pic-qoute">
@@ -36,4 +49,4 @@ const dashboard = () => {
     )
 }
 
-export default dashboard;
+export default Dashboard;
