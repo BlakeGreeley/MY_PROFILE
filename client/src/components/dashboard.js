@@ -27,12 +27,12 @@ const Dashboard = () => {
                     <Link to='/contact' className="btn">Contact Me</Link>
                     <div class="dropdown">
                         <button class="dropbtn">Dropdown
-                            <i class="fa fa-caret-down"></i>
+                            <i></i>
                         </button>
                         <div class="dropdown-content">
-                            <a href="#">Link 1</a>
-                            <a href="#">Link 2</a>
-                            <a href="#">Link 3</a>
+                            <a href="#">PROJECTS</a>
+                            <a href="#">RESUME</a>
+                            <a href="#">ABOUT ME</a>
                         </div>
                     </div>
                 </div>
