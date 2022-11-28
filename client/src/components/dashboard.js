@@ -26,7 +26,10 @@ const Dashboard = () => {
                 <div className="right-nav">
                     <Link to='/contact' className="btn">Contact Me</Link>
                     <div class="dropdown">
-                        <button class="dropbtn">Dropdown
+                        <button class="dropbtn">
+                            <svg width="46" height="46" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3 18h18v-2H3v2Zm0-5h18v-2H3v2Zm0-7v2h18V6H3Z"></path>
+                            </svg>
                             <i></i>
                         </button>
                         <div class="dropdown-content">
@@ -39,7 +42,7 @@ const Dashboard = () => {
             </div>
 
             <div className="qoute">
-                
+
             </div>
 
             <div className="info-box">
