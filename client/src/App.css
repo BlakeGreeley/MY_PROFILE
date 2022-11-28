@@ -41,7 +41,7 @@ h1 {
   justify-content: space-between;
   align-items: center;
   background-color: #004643;
-  border-bottom: 5px solid #abd1c6;
+  border-bottom: 5px solid #fffff3;
 }
 
 
@@ -129,7 +129,7 @@ p {
 /* end of qoute section */
 
 .info-box {
-  background-color: #abd1c6;
+  background-color: #fffff3;
   height: 1200px;
   width: 100%;
 }
