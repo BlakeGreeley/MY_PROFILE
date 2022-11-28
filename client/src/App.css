@@ -6,7 +6,7 @@ body {
 
 h1 {
   color: #fffff3;
-  font-size: 48px;
+  font-size: 56px;
   padding-left: 85px;
   font-family: Courier, monospace;
 }
@@ -41,6 +41,7 @@ h1 {
   justify-content: space-between;
   align-items: center;
   background-color: #004643;
+  border-bottom: 5px solid #abd1c6;
 }
 
 
@@ -105,10 +106,30 @@ h1 {
   display: block;
 }
 
+/* end of nav section */
+
 /* Picture and qoute section */
 
 .qoute {
-  height: 500px;
+  display: flex;
+  height: 300px;
+  color: #abd1c6;
   width: 100%;
+  background-color: #004643;
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-top: 120px;
+}
+
+p {
+  color: #abd1c6;
+  font-size: 48px;
+}
+
+/* end of qoute section */
+
+.info-box {
   background-color: #abd1c6;
+  height: 1200px;
+  width: 100%;
 }

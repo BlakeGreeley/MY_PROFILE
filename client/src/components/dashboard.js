@@ -42,11 +42,28 @@ const Dashboard = () => {
             </div>
 
             <div className="qoute">
+                <p>"To realize one's destiny<br></br>
+                is a person's only obligation." <br></br>
+                - Paulo CoelHo</p>
 
             </div>
 
             <div className="info-box">
+                <div className="categories">
+                    
+                </div>
 
+                <div className="categories">
+                    
+                </div>
+
+                <div className="categories">
+                    
+                </div>
+
+                <div className="categories">
+                    
+                </div>
             </div>
         </div>
     )
