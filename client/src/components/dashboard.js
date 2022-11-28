@@ -49,20 +49,27 @@ const Dashboard = () => {
             </div>
 
             <div className="info-box">
-                <div className="categories">
-                    
-                </div>
+                
+            </div>
 
-                <div className="categories">
-                    
-                </div>
+            <div className="end-page">
+                <div className="info-card">
+                    <div>
+                    <h2>Blake Greeley</h2>
+                    <h3>1-360-991-7125</h3>
+                    <h3>https://www.linkedin.com/in/blake-greeley-58442079/</h3>
+                    <h3>https://github.com/BlakeGreeley</h3>
+                    </div>
 
-                <div className="categories">
-                    
-                </div>
+                    <div className="categories">
+                        <Link to='/projects' className="btn-info">PROJECTS</Link>
 
-                <div className="categories">
-                    
+                        <Link to='/projects' className="btn-info">RESUME</Link>
+
+                        <Link to='/projects' className="btn-info">ABOUT ME</Link>
+
+                        <Link to='/projects' className="btn-info">CONTACT ME</Link>
+                    </div>
                 </div>
             </div>
         </div>

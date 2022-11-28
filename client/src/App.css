@@ -133,3 +133,51 @@ p {
   height: 1200px;
   width: 100%;
 }
+
+/* info end */
+
+/* end page section */
+.end-page {
+  justify-content: space-between;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.info-card {
+  justify-content: space-around;
+  display: flex;
+}
+
+h2 {
+  color: #fffff3;
+}
+
+h3 {
+  color: #abd1c6;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+}
+
+.btn-info {
+  margin: 10px;
+  border-radius: 15%;
+  height: 24px;
+  font-family: Courier, monospace;
+  font-size: 18px;
+  background-color: #f9bc60;
+  color: #001e1d;
+  padding-top: 6px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-decoration: none;
+}
+
+.btn-info:hover {
+  background-color: #e16162;
+  color: #fffff3;
+}
