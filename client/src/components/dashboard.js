@@ -33,9 +33,9 @@ const Dashboard = () => {
                             <i></i>
                         </button>
                         <div class="dropdown-content">
-                            <a href="#">PROJECTS</a>
-                            <a href="#">RESUME</a>
-                            <a href="#">ABOUT ME</a>
+                            <a href="/Projects">PROJECTS</a>
+                            <a href="/Resume">RESUME</a>
+                            <a href="/AboutMe">ABOUT ME</a>
                         </div>
                     </div>
                 </div>
@@ -62,11 +62,11 @@ const Dashboard = () => {
                     </div>
 
                     <div className="categories">
-                        <Link to='/projects' className="btn-info">PROJECTS</Link>
+                        <Link to='/Projects' className="btn-info">PROJECTS</Link>
 
-                        <Link to='/projects' className="btn-info">RESUME</Link>
+                        <Link to='/Resume' className="btn-info">RESUME</Link>
 
-                        <Link to='/projects' className="btn-info">ABOUT ME</Link>
+                        <Link to='/AboutMe' className="btn-info">ABOUT ME</Link>
 
                         <Link to='/projects' className="btn-info">CONTACT ME</Link>
                     </div>
