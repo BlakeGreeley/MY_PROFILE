@@ -38,8 +38,8 @@ const Dashboard = () => {
                 </div>
             </div>
 
-            <div className="Pic-qoute">
-
+            <div className="qoute">
+                
             </div>
 
             <div className="info-box">
