@@ -1,9 +1,11 @@
 /* Main designs */
-
+.link {
+  color: #abd1c6;
+}
 
 
 h1 {
-  color: #fffff3;
+  color: #abd1c6;
   font-size: 56px;
   padding-left: 85px;
   font-family: Courier, monospace;
@@ -131,7 +133,13 @@ p {
 .info-box {
   background-color: #fffff3;
   height: 1200px;
-  width: 100%;
+  margin: 10px;
+  border: solid black 4px;
+}
+
+.myPicture {
+  background-color: #abd1c6;
+  width: 200px;
 }
 
 /* info end */
