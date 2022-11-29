@@ -13,7 +13,7 @@ h1 {
   margin-top: 18px;
   border-radius: 10%;
   width: 110px;
-  /* box-shadow: #f7b045 2px 2px 0px 0px; */
+  box-shadow: 0 1px 0 1px #8a8a8a;
   font-family: Courier, monospace;
   font-size: 18px;
   background-color: #f9bc60;
@@ -170,6 +170,7 @@ h3 {
   text-align: center;
   height: 24px;
   font-family: Courier, monospace;
+  box-shadow: 0 1px 0 1px #8a8a8a;
   font-size: 18px;
   background-color: #f9bc60;
   color: #004643;
