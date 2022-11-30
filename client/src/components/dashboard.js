@@ -97,7 +97,7 @@ const Dashboard = () => {
                         </svg>
                     </div>
                     <div className="info-description">
-                    <div>
+                        <div>
                             <p3>LOVE IT LINK IT:</p3> <br></br>
                             <p2>Online link advertisement site. Using using MongoDB, Express.js, React.js, Node.js</p2>
                             <br></br>
@@ -107,6 +107,13 @@ const Dashboard = () => {
                         <div>
                             <p3>Geocaching Website: </p3> <br></br>
                             <p2>Social platform application. Using JAVA and SpringBoot Suite</p2>
+                            <br></br>
+                            <p3>https://github.com/BlakeGreeley/Geocaching_Website</p3>
+                        </div><br></br>
+
+                        <div>
+                            <p3>Book Logger: </p3> <br></br>
+                            <p2> Book and author tracking log. Using Python and Flask</p2>
                             <br></br>
                             <p3>https://github.com/BlakeGreeley/Geocaching_Website</p3>
                         </div><br></br>
