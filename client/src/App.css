@@ -121,6 +121,8 @@ h1 {
   color: #abd1c6;
   width: 100%;
   background-color: #004643;
+  align-items: center;
+  text-align: center;
   padding-left: 30%;
   padding-right: 30%;
   padding-top: 120px;

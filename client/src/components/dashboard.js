@@ -9,7 +9,9 @@ const Dashboard = () => {
             {/* top of the page. will be used to display name on the left with a navigation icon on the right that has a 
             drop down function. */}
             <div className="header">
-                <h1>BLAKE GREELEY</h1>
+                <h1>
+                    BLAKE GREELEY
+                </h1>
                 <div className="right-nav">
 
                     <Link to='/contact' className="btn">
@@ -115,7 +117,7 @@ const Dashboard = () => {
                             <p3>Book Logger: </p3> <br></br>
                             <p2> Book and author tracking log. Using Python and Flask</p2>
                             <br></br>
-                            <p3>https://github.com/BlakeGreeley/Geocaching_Website</p3>
+                            <p3>https://github.com/BlakeGreeley/books_website</p3>
                         </div><br></br>
                     </div>
                 </div>
@@ -131,7 +133,23 @@ const Dashboard = () => {
                         </svg>
                     </div>
                     <div className="info-description">
-                        <p> </p>
+                        <div>
+                            <p3>Graduated Coding Dojo</p3> <br></br>
+                            <p2> Certified in three coding stacks</p2>
+                            <br></br>
+                            <p3>MERN, JAVA, and Python</p3>
+                        </div><br></br>
+
+                        <div>
+                            <p3>Graduated Clark College</p3> <br></br>
+                            <p2> Associates degree in Arts - DTAA</p2>
+                        </div><br></br>
+
+                        <div>
+                            <p3>Junior Status at WSU</p3> <br></br>
+                            <p2>Studying Computer Science with a 4.0 GPA standing</p2> <br></br>
+                            <p3>Inducted into The National Society of Leadership and Success - nominated by professors at WSU</p3>
+                        </div>
                     </div>
                 </div>
             </div>
