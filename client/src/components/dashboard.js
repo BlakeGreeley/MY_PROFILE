@@ -5,7 +5,7 @@ import { Hire, Link } from 'react-router-dom';
 
 const Dashboard = () => {
     return (
-        <div className="container">
+        <div>
             {/* top of the page. will be used to display name on the left with a navigation icon on the right that has a 
             drop down function. */}
             <div className="header">
@@ -14,7 +14,7 @@ const Dashboard = () => {
                 </h1>
                 <div className="right-nav">
 
-                    <Link to='/contact' className="btn">
+                    <Link to='/ContactMe' className="btn">
                         Contact Me
                     </Link>
                     <div class="dropdown">
@@ -26,7 +26,7 @@ const Dashboard = () => {
                         </button>
                         <div class="dropdown-content">
                             <a href="/Resume">RESUME</a>
-                            <a href="/AboutMe">ABOUT ME</a>
+                            {/* <a href="/AboutMe">ABOUT ME</a> */}
                             <a href="/ContactMe">CONTACT ME</a>
                         </div>
                     </div>
@@ -174,9 +174,9 @@ const Dashboard = () => {
 
                         <Link to='/AboutMe' className="btn-info">ABOUT ME</Link>
 
-                        <Link to='/projects' className="btn-info">CONTACT ME</Link>
+                        <Link to='/ContactMe' className="btn-info">CONTACT ME</Link>
 
-                        <Link to='/contactMe'>
+                        <Link to='/ContactMe'>
                             <svg width="60" height="48" fill="#f9bc60" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M21.75 3.75H2.25a.75.75 0 0 0-.75.75v15a.75.75 0 0 0 .75.75h19.5a.75.75 0 0 0 .75-.75v-15a.75.75 0 0 0-.75-.75Zm-9.29 9.592a.75.75 0 0 1-.92 0l-7.342-5.71.92-1.184L12 11.8l6.882-5.352.92 1.184-7.342 5.71Z"></path>
                             </svg>
